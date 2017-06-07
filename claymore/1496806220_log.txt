@@ -1,0 +1,74 @@
+20:30:20:723	ca202740	args: -allcoins exp -epool exp-us.dwarfpool.com:81/0xd5a7eda7b3cd20ef383e501373737f0880f41ee9 
+20:30:20:723	ca202740	
+20:30:20:723	ca202740	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+20:30:20:723	ca202740	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.4      บ
+20:30:20:723	ca202740	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+20:30:20:723	ca202740	
+20:30:20:923	ca202740	ETH: 1 pool is specified
+20:30:20:923	ca202740	Main Ethereum pool is exp-us.dwarfpool.com:81
+20:30:20:924	ca202740	DCR: 0 pool is specified
+20:30:20:939	ca202740	OpenCL platform: NVIDIA CUDA
+20:30:20:940	ca202740	AMD OpenCL platform not found 
+20:30:20:947	ca202740	CUDA initializing...
+
+20:30:20:947	ca202740	NVIDIA Cards available: 1 
+20:30:20:947	ca202740	CUDA Driver Version/Runtime Version: 8.0/8.0
+20:30:20:948	ca202740	GPU #0: GeForce GTX 960M, 4044 MB available, 5 compute units, capability: 5.0
+
+20:30:20:948	ca202740	Total cards: 1 
+20:30:30:401	ca202740	No AMD cards in the list, ADL library will not be used.
+20:30:30:402	ca202740	NVML version: 8.375.39
+20:30:30:518	baffd700	ETH: Stratum - connecting to 'exp-us.dwarfpool.com' <149.56.185.143> port 81
+20:30:30:581	ca202740	No pool specified for Decred! Ethereum-only mining mode is enabled
+20:30:30:581	ca202740	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+20:30:30:581	ca202740	ETH: eth-proxy stratum mode
+20:30:30:581	ca202740	"-allcoins" option is set, default pools will be used for devfee, check "Readme" file for details.
+20:30:30:581	ca202740	Watchdog enabled
+20:30:30:581	ca202740	Remote management (READ-ONLY MODE) is enabled on port 3333
+20:30:30:581	ca202740	
+20:30:30:589	baffd700	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["", ""], "id": 2, "method": "eth_submitLogin"}
+
+20:30:30:589	baffd700	ETH: Stratum - Connected (exp-us.dwarfpool.com:81)
+20:30:30:670	baffd700	got 335 bytes
+20:30:30:671	baffd700	buf: HTTP/1.1 400 Bad Request
+Server: openresty/1.9.7.3
+Date: Wed, 07 Jun 2017 03:30:30 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: close
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body bgcolor="white">
+<center><h1>400 Bad Request</h1></center>
+<hr><center>openresty/1.9.7.3</center>
+</body>
+</html>
+
+20:30:30:671	baffd700	buf: HTTP/1.1400BadRequest
+Server:openresty/1.9.7.3
+Date:Wed,07Jun201703:30:30GMT
+Content-Type:text/html
+Content-Length:178
+Connection:close
+
+<html>
+<head><title>400BadRequest</title></head>
+<bodybgcolor="white">
+<center><h1>400BadRequest</h1></center>
+<hr><center>openresty/1.9.7.3</center>
+</body>
+</html>
+
+20:30:30:671	baffd700	Socket was closed remotely (by pool)
+20:30:30:671	baffd700	ETH: Job timeout, disconnect, retry in 20 sec...
+20:30:33:587	ca202740	NVML: cannot get fan speed, error 3
+20:30:36:593	ca202740	NVML: cannot get fan speed, error 3
+20:30:39:597	ca202740	NVML: cannot get fan speed, error 3
+20:30:42:603	ca202740	NVML: cannot get fan speed, error 3
+20:30:45:608	ca202740	NVML: cannot get fan speed, error 3
+20:30:48:613	ca202740	NVML: cannot get fan speed, error 3
+20:30:50:675	baffd700	ETH: Stratum - connecting to 'exp-us.dwarfpool.com' <158.69.199.198> port 81
+20:30:50:745	baffd700	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["", ""], "id": 2, "method": "eth_submitLogin"}
+
+20:30:50:745	baffd700	ETH: Stratum - Connected (exp-us.dwarfpool.com:81)

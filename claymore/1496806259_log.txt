@@ -1,0 +1,160 @@
+20:30:59:142	cef43740	args: -allcoins exp -epool exp-us.dwarfpool.com:81/0xd5a7eda7b3cd20ef383e501373737f0880f41ee9 
+20:30:59:142	cef43740	
+20:30:59:142	cef43740	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+20:30:59:142	cef43740	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.4      บ
+20:30:59:142	cef43740	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+20:30:59:142	cef43740	
+20:30:59:342	cef43740	ETH: 1 pool is specified
+20:30:59:342	cef43740	Main Ethereum pool is exp-us.dwarfpool.com:81
+20:30:59:342	cef43740	DCR: 0 pool is specified
+20:30:59:358	cef43740	OpenCL platform: NVIDIA CUDA
+20:30:59:358	cef43740	AMD OpenCL platform not found 
+20:30:59:365	cef43740	CUDA initializing...
+
+20:30:59:365	cef43740	NVIDIA Cards available: 1 
+20:30:59:365	cef43740	CUDA Driver Version/Runtime Version: 8.0/8.0
+20:30:59:366	cef43740	GPU #0: GeForce GTX 960M, 4044 MB available, 5 compute units, capability: 5.0
+
+20:30:59:366	cef43740	Total cards: 1 
+20:31:08:820	cef43740	No AMD cards in the list, ADL library will not be used.
+20:31:08:821	cef43740	NVML version: 8.375.39
+20:31:08:909	bf7fe700	ETH: Stratum - connecting to 'exp-us.dwarfpool.com' <149.56.185.143> port 81
+20:31:08:980	bf7fe700	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["", ""], "id": 2, "method": "eth_submitLogin"}
+
+20:31:08:980	bf7fe700	ETH: Stratum - Connected (exp-us.dwarfpool.com:81)
+20:31:09:003	cef43740	No pool specified for Decred! Ethereum-only mining mode is enabled
+20:31:09:003	cef43740	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+20:31:09:003	cef43740	ETH: eth-proxy stratum mode
+20:31:09:003	cef43740	"-allcoins" option is set, default pools will be used for devfee, check "Readme" file for details.
+20:31:09:003	cef43740	Watchdog enabled
+20:31:09:003	cef43740	Remote management (READ-ONLY MODE) is enabled on port 3333
+20:31:09:004	cef43740	
+20:31:09:061	bf7fe700	got 335 bytes
+20:31:09:061	bf7fe700	buf: HTTP/1.1 400 Bad Request
+Server: openresty/1.9.7.3
+Date: Wed, 07 Jun 2017 03:31:09 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: close
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body bgcolor="white">
+<center><h1>400 Bad Request</h1></center>
+<hr><center>openresty/1.9.7.3</center>
+</body>
+</html>
+
+20:31:09:061	bf7fe700	buf: HTTP/1.1400BadRequest
+Server:openresty/1.9.7.3
+Date:Wed,07Jun201703:31:09GMT
+Content-Type:text/html
+Content-Length:178
+Connection:close
+
+<html>
+<head><title>400BadRequest</title></head>
+<bodybgcolor="white">
+<center><h1>400BadRequest</h1></center>
+<hr><center>openresty/1.9.7.3</center>
+</body>
+</html>
+
+20:31:09:062	bf7fe700	Socket was closed remotely (by pool)
+20:31:09:062	bf7fe700	ETH: Job timeout, disconnect, retry in 20 sec...
+20:31:11:004	bdffb700	server: bind failed with error: 98 (check -mport option value), next attempt in 20sec...
+20:31:12:009	cef43740	NVML: cannot get fan speed, error 3
+20:31:15:014	cef43740	NVML: cannot get fan speed, error 3
+20:31:18:019	cef43740	NVML: cannot get fan speed, error 3
+20:31:21:024	cef43740	NVML: cannot get fan speed, error 3
+20:31:24:029	cef43740	NVML: cannot get fan speed, error 3
+20:31:27:034	cef43740	NVML: cannot get fan speed, error 3
+20:31:29:065	bf7fe700	ETH: Stratum - connecting to 'exp-us.dwarfpool.com' <158.69.199.198> port 81
+20:31:29:135	bf7fe700	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["", ""], "id": 2, "method": "eth_submitLogin"}
+
+20:31:29:135	bf7fe700	ETH: Stratum - Connected (exp-us.dwarfpool.com:81)
+20:31:29:216	bf7fe700	got 335 bytes
+20:31:29:217	bf7fe700	buf: HTTP/1.1 400 Bad Request
+Server: openresty/1.9.7.3
+Date: Wed, 07 Jun 2017 03:31:29 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: close
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body bgcolor="white">
+<center><h1>400 Bad Request</h1></center>
+<hr><center>openresty/1.9.7.3</center>
+</body>
+</html>
+
+20:31:29:217	bf7fe700	buf: HTTP/1.1400BadRequest
+Server:openresty/1.9.7.3
+Date:Wed,07Jun201703:31:29GMT
+Content-Type:text/html
+Content-Length:178
+Connection:close
+
+<html>
+<head><title>400BadRequest</title></head>
+<bodybgcolor="white">
+<center><h1>400BadRequest</h1></center>
+<hr><center>openresty/1.9.7.3</center>
+</body>
+</html>
+
+20:31:29:217	bf7fe700	Socket was closed remotely (by pool)
+20:31:29:217	bf7fe700	ETH: Job timeout, disconnect, retry in 20 sec...
+20:31:30:039	cef43740	NVML: cannot get fan speed, error 3
+20:31:31:004	bdffb700	server: bind failed with error: 98 (check -mport option value), next attempt in 20sec...
+20:31:33:043	cef43740	NVML: cannot get fan speed, error 3
+20:31:36:049	cef43740	NVML: cannot get fan speed, error 3
+20:31:39:053	cef43740	NVML: cannot get fan speed, error 3
+20:31:39:053	cef43740	NVML: cannot get fan speed, error 3
+20:31:39:053	cef43740	GPU0 t=76C fan=0%
+20:31:39:054	cef43740	em hbt: 9992, fm hbt: 0, 
+20:31:39:054	cef43740	watchdog - thread 0 (gpu0), hb time 63
+20:31:39:054	cef43740	watchdog - thread 1 (gpu0), hb time 63
+20:31:42:058	cef43740	NVML: cannot get fan speed, error 3
+20:31:45:063	cef43740	NVML: cannot get fan speed, error 3
+20:31:48:069	cef43740	NVML: cannot get fan speed, error 3
+20:31:49:224	bf7fe700	ETH: Stratum - connecting to 'exp-us.dwarfpool.com' <158.69.199.198> port 81
+20:31:49:295	bf7fe700	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["", ""], "id": 2, "method": "eth_submitLogin"}
+
+20:31:49:295	bf7fe700	ETH: Stratum - Connected (exp-us.dwarfpool.com:81)
+20:31:49:366	bf7fe700	got 335 bytes
+20:31:49:367	bf7fe700	buf: HTTP/1.1 400 Bad Request
+Server: openresty/1.9.7.3
+Date: Wed, 07 Jun 2017 03:31:49 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: close
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body bgcolor="white">
+<center><h1>400 Bad Request</h1></center>
+<hr><center>openresty/1.9.7.3</center>
+</body>
+</html>
+
+20:31:49:367	bf7fe700	buf: HTTP/1.1400BadRequest
+Server:openresty/1.9.7.3
+Date:Wed,07Jun201703:31:49GMT
+Content-Type:text/html
+Content-Length:178
+Connection:close
+
+<html>
+<head><title>400BadRequest</title></head>
+<bodybgcolor="white">
+<center><h1>400BadRequest</h1></center>
+<hr><center>openresty/1.9.7.3</center>
+</body>
+</html>
+
+20:31:49:367	bf7fe700	Socket was closed remotely (by pool)
+20:31:49:367	bf7fe700	ETH: Job timeout, disconnect, retry in 20 sec...
+20:31:51:005	bdffb700	server: bind failed with error: 98 (check -mport option value), next attempt in 20sec...
+20:31:51:073	cef43740	NVML: cannot get fan speed, error 3

@@ -1,0 +1,68 @@
+20:34:49:578	8bb6b740	args: -allcoins exp -epool exp-us.dwarfpool.com:81 -ewal 0xd5a7eda7b3cd20ef383e501373737f0880f41ee9 
+20:34:49:578	8bb6b740	
+20:34:49:578	8bb6b740	ษออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออป
+20:34:49:578	8bb6b740	บ      Claymore's Dual ETH + DCR/SC/LBC/PASC GPU Miner v9.4      บ
+20:34:49:578	8bb6b740	ศออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออออผ
+20:34:49:578	8bb6b740	
+20:34:49:779	8bb6b740	ETH: 1 pool is specified
+20:34:49:779	8bb6b740	Main Ethereum pool is exp-us.dwarfpool.com:81
+20:34:49:779	8bb6b740	DCR: 0 pool is specified
+20:34:49:795	8bb6b740	OpenCL platform: NVIDIA CUDA
+20:34:49:795	8bb6b740	AMD OpenCL platform not found 
+20:34:49:802	8bb6b740	CUDA initializing...
+
+20:34:49:802	8bb6b740	NVIDIA Cards available: 1 
+20:34:49:802	8bb6b740	CUDA Driver Version/Runtime Version: 8.0/8.0
+20:34:49:803	8bb6b740	GPU #0: GeForce GTX 960M, 4044 MB available, 5 compute units, capability: 5.0
+
+20:34:49:803	8bb6b740	Total cards: 1 
+20:34:59:256	8bb6b740	No AMD cards in the list, ADL library will not be used.
+20:34:59:258	8bb6b740	NVML version: 8.375.39
+20:34:59:342	80a96700	ETH: Stratum - connecting to 'exp-us.dwarfpool.com' <158.69.199.198> port 81
+20:34:59:417	80a96700	send: {"worker": "eth1.0", "jsonrpc": "2.0", "params": ["0xd5a7eda7b3cd20ef383e501373737f0880f41ee9", ""], "id": 2, "method": "eth_submitLogin"}
+
+20:34:59:418	80a96700	ETH: Stratum - Connected (exp-us.dwarfpool.com:81)
+20:34:59:436	8bb6b740	No pool specified for Decred! Ethereum-only mining mode is enabled
+20:34:59:436	8bb6b740	ETHEREUM-ONLY MINING MODE ENABLED (-mode 1)
+20:34:59:436	8bb6b740	ETH: eth-proxy stratum mode
+20:34:59:436	8bb6b740	"-allcoins" option is set, default pools will be used for devfee, check "Readme" file for details.
+20:34:59:436	8bb6b740	Watchdog enabled
+20:34:59:436	8bb6b740	Remote management (READ-ONLY MODE) is enabled on port 3333
+20:34:59:436	8bb6b740	
+20:34:59:764	80a96700	got 335 bytes
+20:34:59:764	80a96700	buf: HTTP/1.1 400 Bad Request
+Server: openresty/1.9.7.3
+Date: Wed, 07 Jun 2017 03:34:59 GMT
+Content-Type: text/html
+Content-Length: 178
+Connection: close
+
+<html>
+<head><title>400 Bad Request</title></head>
+<body bgcolor="white">
+<center><h1>400 Bad Request</h1></center>
+<hr><center>openresty/1.9.7.3</center>
+</body>
+</html>
+
+20:34:59:764	80a96700	buf: HTTP/1.1400BadRequest
+Server:openresty/1.9.7.3
+Date:Wed,07Jun201703:34:59GMT
+Content-Type:text/html
+Content-Length:178
+Connection:close
+
+<html>
+<head><title>400BadRequest</title></head>
+<bodybgcolor="white">
+<center><h1>400BadRequest</h1></center>
+<hr><center>openresty/1.9.7.3</center>
+</body>
+</html>
+
+20:34:59:764	80a96700	Socket was closed remotely (by pool)
+20:34:59:764	80a96700	ETH: Job timeout, disconnect, retry in 20 sec...
+20:35:01:437	72bf3700	server: bind failed with error: 98 (check -mport option value), next attempt in 20sec...
+20:35:02:442	8bb6b740	NVML: cannot get fan speed, error 3
+20:35:05:447	8bb6b740	NVML: cannot get fan speed, error 3
+20:35:08:451	8bb6b740	NVML: cannot get fan speed, error 3
